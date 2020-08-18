@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Draw and Modify Features</title>
+    <link rel="stylesheet" href="/libs/v6.3.1-dist/ol.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch,requestAnimationFrame,Element.prototype.classList,URL"></script>
+  </head>
+  <body>
+    <div id="js-map" class="map"></div>
+    <form class="form-inline">
+      <label>Draw marker type &nbsp;</label>
+      <select id="drawtype">
+        <option value="Polygon">Polygon</option>
+        <option value="Point">Point</option>
+      </select>
+    </form>
+    <br>
+      <label>Coordinate list</label>
+    <br>
+      <textarea cols="50" rows="4" id="box"></textarea>
+    <br>
+    <script src="main.js"></script>
+    <script src='./libs/v6.3.1-dist/ol.js'></script>
+  </body>
+</html>

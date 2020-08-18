@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.map{
+
+    width: 80%;
+    height: 400px;
+}
+
+#copyright{
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    background-color: cornsilk;
+    width: 12vw;
+}
